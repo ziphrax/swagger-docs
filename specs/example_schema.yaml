@@ -1,0 +1,11 @@
+type: object
+title: Example
+properties:
+  id: 
+    type: string
+    description: The unique id for the example entity
+    example: 619e56f93245da007a8ddd47
+  name:
+    type: string
+    description: The name of the example
+    example: Example Name

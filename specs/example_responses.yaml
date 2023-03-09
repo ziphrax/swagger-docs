@@ -1,0 +1,7 @@
+getExampleSuccess:
+  '200':
+    description: Example GET success
+    content:
+      application/json:
+        schema:
+          $ref: example_schema.yaml

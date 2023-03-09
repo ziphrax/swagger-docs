@@ -1,0 +1,25 @@
+openapi: 3.0.1
+
+info:
+  title: Swagger API
+  description: This is an example API
+  version: '0.1.1'
+  contact:
+    name: David Jones
+    email: david.jones@example.com
+
+tags:
+  - name: Example Controller
+    description: Example Controller
+
+paths:
+  /example:
+    get:
+      summary: Gets an example
+      operationId: getExample
+      description: Returns an example
+      tags:
+        - Example Controller
+      responses:
+        '200':
+          $ref: example_responses.yaml#/getExampleSuccess/200
